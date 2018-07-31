@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Strategic Tech Consulting | 31Se7en</title>
-  <meta name="description" content="">
+  <meta name="description" content="When your strong forte isn't Tech, defining what you need help with sometimes is a challenge by it self. Let us at least do that first-step for you, for free.">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="apple-touch-icon" sizes="57x57" href="/img/apple-icon-57x57.png">
@@ -38,13 +38,28 @@
   <script src="js/main.js"></script>
   <style>
     img#logo {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      margin-top: -30px;
-      margin-left: -200px;
       max-width: 100%;
-      width: 400px;
+      margin-top: 20px;
+    }
+    h1 {
+      font-size: 2em;
+    }
+    h3 {
+      font-size: 1.2em;
+    }
+
+    #services img {
+      height: 30px;
+      margin-left: 20px;
+      filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+      filter: gray;
+      -webkit-filter: grayscale(100%);
+      cursor: pointer;
+      transition-duration: 0.8s;
+    }
+    #services img:hover {
+      filter: none;
+      -webkit-filter: grayscale(0%);
     }
   </style>
   <script>
@@ -56,26 +71,71 @@
 
 <body class='container-fluid'>
   <div class='row'>
-    <div class='col-sm-8'>
-      <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-          Strategic Tech Partnership
-        </a>
-      </nav> -->
+    <div class='col-sm-7'>
 
-      <div>
-        <h1>Services</h1>
+      <div id='services'>
+        <h1>Services & Client</h1>
         <hr/>
+        
+        <h3>Technical Development</h3>
+        <ul>
+          <li>Technical Development resourcing</li>
+          <li>Culture coaching, up to 100 headcount</li>
+        </ul>
+        <p>
+          <a href='https://www.7-eleven.vn/' target="_blank"><img src='img/portfolio/7eleven.svg' alt='7-Eleven Vietnam' /></a>
+          <a href='https://siliconstraits.vn/' target="_blank"><img src='img/portfolio/ss.png' alt='Silicon Straits Saigon' /></a>
+          <img src='img/portfolio/msv.png' alt='MSV Tech' />
+        </p>
 
-        <h1>Portfolio</h1>
-        <hr/>
+
+        <h3>Consulting</h3>
+        <ul>
+          <li>Mangement Consulting</li>
+          <li>Strategic Tech Advisory / Partnership</li>
+          <li>Initial Coin/Token Offering</li>
+        </ul>
+        <p>
+          <a href='https://triip.me/' target="_blank"><img src='img/portfolio/triip.svg' alt='Triip.me' /></a>
+          <a href='https://www.parcelperform.com/' target="_blank"><img src='img/portfolio/parcel_perform.svg' alt='Parcel Perform' /></a>
+          <a href='https://www.7-eleven.vn/' target="_blank"><img src='img/portfolio/7eleven.svg' alt='7-Eleven Vietnam' /></a>
+        </p>
+
+        <h3>Venture Investment</h3>
+        <ul>
+          <li>Technical Auditing</li>
+          <li>Technical Due Diligent</li>
+        </ul>
+        <p>
+          <a href='https://siliconstraits.vn/' target="_blank"><img src='img/portfolio/ss.png' alt='Silicon Straits Saigon' /></a>
+        </p>
 
         <h1>Contact</h1>
         <hr/>
+        <p>
+          When your strong forte isn't Tech, defining what you need help with sometimes is a challenge by it self, let us do that for you.
+          <br><br>
+          Here are some ideas for starter:
+          <ul>
+            <li>I think I need a CTO/CIO, perhaps at group level?</li>
+            <li>I think my operations could be more efficient with technologies somehow.</li>
+            <li>How do I do digital transformation?</li>
+            <li>I might need an ERP system for my business, or should I go with off-the-shelf solutions?</li>
+            <li>Should I outsource non-core competencies, such as building mobile app?</li>
+            <li>Should my company issue ERC20 Tokens, leveraging on the blockchain wave</li>
+          </ul>
+          <br>
+          Drop an email to <a href="mailto:partnership@31Se7en.com?subject=Partnership ideas">partnership@31Se7en.com</a> with your ideas or questions and we'll guide you further from there.
+        </p>
+
+        <hr>
+        <p>
+          <small class='text-muted'>We are based in Ho Chi Minh city, Vietnam, GMT+7 timezone.</small>
+        </p>
       </div>
     </div>
 
-    <div class='col-sm-4'>
+    <div class='col-sm-5'>
       <img id="logo" src='img/logo_horizontal.png' />
     </div>
   </div>
